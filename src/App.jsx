@@ -47,7 +47,12 @@ function App() {
   return (
     <>
       <header className="header" id="top">
-        <a className="brand" href="#top" aria-label="TuniX accueil" onClick={closeMenu}>
+        <a
+          className="brand"
+          href="#top"
+          aria-label="TuniX accueil"
+          onClick={closeMenu}
+        >
           <img src={logo} alt="TuniX" />
         </a>
 
@@ -57,6 +62,7 @@ function App() {
               {label}
             </a>
           ))}
+        
         </nav>
 
         <a className="header-cta" href="#contact">
